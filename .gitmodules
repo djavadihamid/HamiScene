@@ -1,0 +1,3 @@
+[submodule "Assets/Modules/Unity-iTween"]
+	path = Assets/Modules/Unity-iTween
+	url = https://github.com/djavadihamid/Unity-iTween.git
