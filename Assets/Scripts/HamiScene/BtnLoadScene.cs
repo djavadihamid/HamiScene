@@ -9,7 +9,7 @@ namespace HamiScene
 
         public void OnPointerDown(PointerEventData eventData)
         {
-            CScene.Load(selectedScene);
+            HamiScene.Load(selectedScene);
         }
     }
 }

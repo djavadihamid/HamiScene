@@ -8,7 +8,7 @@ namespace HamiScene
         {
             if (Input.GetKeyDown(KeyCode.Escape))
             {
-                CScene.Previous(true);
+                HamiScene.Previous(true);
             }
         }
     }

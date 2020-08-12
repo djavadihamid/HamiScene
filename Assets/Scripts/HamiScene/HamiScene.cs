@@ -4,9 +4,9 @@ using UnityEngine;
 namespace HamiScene
 {
     [RequireComponent(typeof(UiFade))]
-    public class CScene : MonoBehaviour
+    public class HamiScene : MonoBehaviour
     {
-        private static CScene  _ins;
+        private static HamiScene  _ins;
         private        Manager Manager;
 
         [SerializeField] private float       _duration;
