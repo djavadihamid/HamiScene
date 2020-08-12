@@ -1,3 +1,12 @@
 [submodule "Assets/Modules/Unity-iTween"]
 	path = Assets/Modules/Unity-iTween
 	url = https://github.com/djavadihamid/Unity-iTween.git
+[submodule "Assets/Modules/JsonDotNetForUnity"]
+	path = Assets/Modules/JsonDotNetForUnity
+	url = https://github.com/djavadihamid/JsonDotNetForUnity.git
+[submodule "Assets/Modules/HamiIO"]
+	path = Assets/Modules/HamiIO
+	url = https://github.com/djavadihamid/HamiIO.git
+[submodule "Assets/Modules/UnityTimer"]
+	path = Assets/Modules/UnityTimer
+	url = https://github.com/akbiggs/UnityTimer.git

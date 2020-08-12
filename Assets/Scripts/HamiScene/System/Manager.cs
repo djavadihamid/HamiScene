@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using HamiScene.Helper;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -57,12 +56,11 @@ namespace HamiScene.System
         private void FadingLoad(string sceneName)
         {
             uiFade.FadeOut();
-            Mono.C_SetTimeout(Configs.Duration, () =>
-                {
-                    SceneManager.LoadScene(sceneName);
-                    Mono.C_SetTimeout(Configs.Duration, () => uiFade.FadeIn());
-                }
-            );
+            Timer.Register(Configs.Duration, () =>
+            {
+                SceneManager.LoadScene(sceneName);
+                Timer.Register(Configs.Duration, () => uiFade.FadeIn());
+            });
         }
     }
 }

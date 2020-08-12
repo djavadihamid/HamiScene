@@ -1,0 +1,1 @@
+public enum ESceneNames{ None , SampleScene, }

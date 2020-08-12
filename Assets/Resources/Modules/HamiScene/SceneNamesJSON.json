@@ -1,0 +1,10 @@
+{
+  "hasFadeEffect": true,
+  "fadingTime": 2.4,
+  "mainScene": "asdsa",
+  "excludedScenesFromBackBtn": [
+    "asda",
+    "qweqwe",
+    "zcvzc"
+  ]
+}

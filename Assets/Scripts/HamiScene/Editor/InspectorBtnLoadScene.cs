@@ -23,8 +23,6 @@ namespace HamiScene.Editor
                     _choiceIndex = i;
                 }
             }
-
-            MonoBehaviour.print("awake now");
         }
 
         public override void OnInspectorGUI()
